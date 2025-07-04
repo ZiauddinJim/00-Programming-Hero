@@ -1,0 +1,44 @@
+div {
+  background-color: #c4e1e6;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 15px;
+}
+img {
+  /* text-align: center; */
+  width: 150px;
+  height: 150px;
+}
+.profile {
+  h2 {
+    font-size: 40px;
+  }
+  p {
+    font-size: medium;
+  }
+}
+h3 {
+  font-size: 30px;
+}
+.about_me {
+  background-color: #ebffd8;
+  p {
+    text-align: justify;
+  }
+}
+.my_work {
+  background-color: #a4ccd9;
+  div {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    display: inline-block;
+    font-size: larger;
+    text-align: center;
+    line-height: 300px;
+  }
+}
+.footer {
+  background-color: #8dbcc7;
+}

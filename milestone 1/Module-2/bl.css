@@ -1,0 +1,12 @@
+header {
+  background-color: rgba(202, 239, 91, 0.77);
+  text-align: center;
+}
+header nav ul {
+  list-style: none;
+  padding: 10px 10px;
+}
+header nav ul li {
+  display: inline;
+  margin: 20px;
+}
