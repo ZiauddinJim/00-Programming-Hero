@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.item {
+  background-color: aqua;
+  padding: 20px;
+  border-radius: 10px;
+}
+.container-2 {
+  display: flex;
+  background-color: antiquewhite;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: 400px;
+}
+
+.box {
+  background-color: aqua;
+  padding: 20px;
+  border-radius: 10px;
+  height: 30px;
+}
