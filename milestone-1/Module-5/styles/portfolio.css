@@ -4,6 +4,14 @@
   font-style: normal;
   font-variation-settings: 'width' 100;
 }
+/* share style */
+
+:root {
+  --dark-1: #181818;
+  --dark-2: #474747;
+  --dark-3: #757575;
+}
+
 .text-primary {
   color: #fd6e0a;
 }
@@ -15,6 +23,9 @@
 }
 .dark-3 {
   color: #757575;
+}
+.secondary-bg {
+  background-color: #fff8f3;
 }
 .btn-primary {
   color: white;
@@ -86,9 +97,21 @@ nav ul li a {
 .banner-profile-pic {
   width: 580px;
 }
+/* Main style */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 
 /* About */
 
+.about {
+  border-radius: 10px;
+  padding: 130px 150px;
+  margin-top: 130px;
+  text-align: center;
+  margin-bottom: 130px;
+}
 .about-title {
   font-size: 35px;
   font-weight: 700;
@@ -96,4 +119,65 @@ nav ul li a {
 .about-description {
   font-size: 18px;
   font-weight: 400;
+}
+
+/* About Items */
+.about-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-title {
+  color: var(--dark-3);
+}
+.item-description {
+  color: var(--dark-2);
+  font-size: 20;
+  font-weight: 700;
+}
+
+/* Skills */
+.skill {
+  margin: 0 auto;
+}
+.skill-do {
+  color: var(--dark-1);
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+.skill-do-description {
+  text-align: center;
+  color: var(--dark-3);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+/* Skills Items */
+.skill-items {
+  display: flex;
+  justify-content: space-around;
+}
+.skill-item {
+  width: 267px;
+  height: 377px;
+  border-radius: 5px;
+  box-shadow: 0 6px 50px rgba(0, 0, 0, 6%);
+}
+.skill-item-pic {
+  width: 44px;
+  padding: 30px 0 20px 30px;
+}
+.skill-item-title {
+  color: var(--dark-1);
+  font-size: 20;
+  font-weight: 700;
+  padding: 0 30px 20px 30px;
+}
+.skill-item-description {
+  color: var(--dark-3);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 30px 20px 30px;
 }
