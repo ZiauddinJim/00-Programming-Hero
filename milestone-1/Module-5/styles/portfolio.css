@@ -10,6 +10,7 @@
   --dark-1: #181818;
   --dark-2: #474747;
   --dark-3: #757575;
+  --background-color: #fff8f3;
 }
 
 .text-primary {
@@ -223,4 +224,50 @@ main {
 .resume-download {
   margin-top: 50px;
   text-align: center;
+  margin-bottom: 113px;
+}
+
+/* Footer Style */
+footer {
+  margin: 0 auto;
+  background-color: var(--background-color);
+}
+.footer-content {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+.footer-column {
+  margin-top: 130px;
+}
+.footer-connect {
+  color: var(--dark-1);
+  font-size: 35px;
+  font-weight: 700;
+}
+.footer-connect-description {
+  color: var(--dark-2);
+  font-size: 16px;
+  font-weight: 400;
+  width: 562px;
+}
+.footer-icon a img {
+  margin-right: 20px;
+}
+
+input {
+  display: block;
+  margin-bottom: 24px;
+  padding: 18px 30px;
+  width: 460px;
+}
+textarea {
+  display: block;
+  margin-bottom: 24px;
+  padding: 18px 30px;
+  width: 460px;
+  height: 180px;
+}
+.footer-button {
+  margin-bottom: 130px;
 }
